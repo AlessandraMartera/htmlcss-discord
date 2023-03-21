@@ -106,8 +106,13 @@ nav {
     justify-content: center;
     text-align: center;
 }
+
 svg {
-    ;
+    margin: -20px;
+}
+
+.buttom-wave {
+    transform: rotate(180deg);
 }
 .text {
     width: 30%;
