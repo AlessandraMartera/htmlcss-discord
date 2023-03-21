@@ -106,13 +106,9 @@ nav {
     justify-content: center;
     text-align: center;
 }
-
 svg {
-    height: 100px;
-    width: 100%;
-    border: #23272a 1px dashed;
+    ;
 }
-
 .text {
     width: 30%;
     text-align: left;
