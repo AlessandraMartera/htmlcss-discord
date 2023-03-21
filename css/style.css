@@ -7,8 +7,6 @@
 
 body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-    /* text-align: center; */
-    /* font-size: 30px; */
 }
 
 h1 {
@@ -30,12 +28,6 @@ a {
     text-decoration: none;
 }
 
-
-/* a:hover {
-    text-decoration: underline;
-} */
-
-
 /* craft a center class, to center the text */
 .center  {
     width: 70%;
@@ -43,6 +35,7 @@ a {
 }
 
 button {
+    font-size: 20px;
     border-radius: 50px;
     padding: 15px 25px;
     border: none;
@@ -99,7 +92,7 @@ nav {
 /* main */
 .text-section {
     min-height: 400px;
-    padding: 10px 0;
+    padding: 60px 0;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -136,10 +129,28 @@ nav {
 
 /* footer */
 footer {
-
     background-color: #23272a;
     padding-top: 50px;
     color: aliceblue;
+}
+
+.settings {
+    width: 20%;
+    margin-right: 50px;
+    float: left;
+    line-height: 250%;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+#flag {
+    height: 20px;
+}
+
+#icons {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .links-footer {
@@ -149,8 +160,7 @@ footer {
 
 ul {
     list-style: none;
-    font-size: 20px;
-    line-height: 150%;
+    line-height: 180%;
 }
 
 .violette-text {
@@ -161,8 +171,11 @@ ul {
 .footer-buttom {
     display: flex;
     justify-content: space-between;
-    border-top: 2px solid rgb(125, 120, 179);
+    border-top: 3px solid #7289da;
+    padding: 20px 0;
+    margin-top: 20px;
 }
+
 /* DEBUG */
 
 /* header */
@@ -201,10 +214,10 @@ ul {
 /* p {
     border: 1px solid aqua;  
 } */
-
+/* 
 .text-section {
     border: yellow 4px dotted;
-}
+} */
 
 /* .square {
     width: 30%;
@@ -221,8 +234,12 @@ ul {
 } */
 
 /* footer */
-footer {
+/* footer {
     min-height: 300px;
+} */
+
+/* .settings {
+    border: yellowgreen 2px dotted;
 }
 
 .links-footer {
@@ -231,7 +248,4 @@ footer {
 
 ul {
     border: 2px dotted black;
-}
-.footers-footer {
-    border: 1px solid cornsilk;
-}
+} */
