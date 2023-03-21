@@ -7,7 +7,7 @@
 
 body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-    text-align: center;
+    /* text-align: center; */
     /* font-size: 30px; */
 }
 
@@ -18,6 +18,9 @@ h1 {
 h2 {
     font-size: 50px;
 }
+
+
+
 
 p {
     line-height: 180%;
@@ -49,6 +52,9 @@ nav {
 }
 
 .link {
+    list-style: none;
+    font-size: 20px;
+    line-height: 150%;
     width: 55%;
     display: flex;
     justify-content: space-between;
@@ -60,6 +66,7 @@ nav {
     background-size: cover;
     height: 600px;
     color: antiquewhite;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,14 +113,14 @@ footer {
     justify-content: space-between;
 }
 
-h3 {
-    color: #4352d6;
-}
-
 ul {
     list-style: none;
     font-size: 20px;
     line-height: 150%;
+}
+
+h3 {
+    color: #4352d6;
 }
 
 .title-list {
