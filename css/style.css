@@ -25,6 +25,7 @@ h2 {
 p {
     line-height: 180%;
     font-size: 20px;
+    margin-top: 30px;
 }
 /* craft a center class, to center the text */
 .center  {
@@ -90,6 +91,7 @@ nav {
 }
 
 .text {
+    width: 30%;
     text-align: left;
     padding: 20px;
 }
@@ -172,9 +174,9 @@ a:hover {
     border: 1px solid aqua;
 } */
 
-h2 {
+/* h2 {
     border: 2px solid red;
-}
+} */
 
 /* p {
     border: 1px solid aqua;  
@@ -184,11 +186,11 @@ h2 {
     border: yellow 4px dotted;
 }
 
-.square {
+/* .square {
     width: 30%;
     height: 400px;
     border: 2px dotted blue;
-}
+} */
 
 .last {
     width: 60%;
