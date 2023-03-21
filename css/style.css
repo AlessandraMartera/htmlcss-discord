@@ -12,21 +12,30 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 60px;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 30px;
 }
-
-
-
 
 p {
     line-height: 180%;
     font-size: 20px;
     margin-top: 30px;
 }
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+/* a:hover {
+    text-decoration: underline;
+} */
+
+
 /* craft a center class, to center the text */
 .center  {
     width: 70%;
@@ -41,7 +50,12 @@ button {
 
 .black {
     background-color: #23272a;
-    color: antiquewhite;
+    color:  #f4f6fb;
+}
+
+.violette {
+    background-color: #7289da;
+    color: #f4f6fb;
 }
 
 /* header settings */
@@ -84,6 +98,7 @@ nav {
 
 /* main */
 .text-section {
+    min-height: 400px;
     padding: 10px 0;
     display: flex;
     justify-content: center;
@@ -96,6 +111,23 @@ nav {
     padding: 20px;
 }
 
+/* last section */
+.last {
+    width: 70%;
+    margin: 20px 0;
+    padding: 20px 0;
+
+}
+
+#stars-adventure {
+    width: 40%;
+    margin: 15px auto;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+.last button {
+    margin: 20px 0;
+}
 
 /* background section */
 .odd {
@@ -105,7 +137,7 @@ nav {
 /* footer */
 footer {
 
-    background-color: #07070bdb;
+    background-color: #23272a;
     padding-top: 50px;
     color: aliceblue;
 }
@@ -121,22 +153,10 @@ ul {
     line-height: 150%;
 }
 
-h3 {
-    color: #4352d6;
+.violette-text {
+    color: #7289da;
 }
 
-.title-list {
-    color: #4352d6;
-}
-
-a {
-    color: aliceblue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 .footer-buttom {
     display: flex;
@@ -192,11 +212,14 @@ a:hover {
     border: 2px dotted blue;
 } */
 
-.last {
-    width: 60%;
-    height: 400px;
+/* .last {
     border: 2px solid orangered;
 }
+
+#stars-adventure {
+    border: #255ee9 dotted 3px;
+} */
+
 /* footer */
 footer {
     min-height: 300px;
