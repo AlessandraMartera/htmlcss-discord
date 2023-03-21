@@ -1,0 +1,251 @@
+/* general settings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    line-height: 180%;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* craft a center class, to center the text */
+.center  {
+    width: 70%;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 15px 25px;
+    border: none;
+}
+
+.black {
+    background-color: #23272a;
+    color:  #f4f6fb;
+}
+
+.violette {
+    background-color: #7289da;
+    color: #f4f6fb;
+}
+
+/* header settings */
+nav {
+    background-color: #255ee9;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    list-style: none;
+    font-size: 20px;
+    line-height: 150%;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* jumbotrone */
+#jumbotrone {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 600px;
+    color: antiquewhite;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-section {
+    width: 50%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* main */
+.text-section {
+    min-height: 400px;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    width: 30%;
+    text-align: left;
+    padding: 20px;
+}
+
+/* last section */
+.last {
+    width: 70%;
+    margin: 20px 0;
+    padding: 20px 0;
+
+}
+
+#stars-adventure {
+    width: 40%;
+    margin: 15px auto;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+.last button {
+    margin: 20px 0;
+}
+
+/* background section */
+.odd {
+    background-color: #f6f6f6;
+}
+
+/* footer */
+footer {
+    background-color: #23272a;
+    padding-top: 50px;
+    color: aliceblue;
+}
+
+.settings {
+    width: 20%;
+    margin-right: 50px;
+    float: left;
+    line-height: 250%;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+#flag {
+    height: 20px;
+}
+
+#icons {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    line-height: 180%;
+}
+
+.violette-text {
+    color: #7289da;
+}
+
+
+.footer-buttom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #7289da;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+/* DEBUG */
+
+/* header */
+/* header {
+    min-height: 100px;
+}
+
+.logo {
+    height: 50px;
+    border: 4px solid blue;
+}
+
+.link {
+    height: 50px;
+    border: 4px solid blue;
+}
+
+.button {
+    height: 50px;
+    border: 4px solid blue;
+}
+
+.download-section {
+    border: 2px solid orangered;
+} */
+
+/* main */
+/* h1 {
+    border: 1px solid aqua;
+} */
+
+/* h2 {
+    border: 2px solid red;
+} */
+
+/* p {
+    border: 1px solid aqua;  
+} */
+/* 
+.text-section {
+    border: yellow 4px dotted;
+} */
+
+/* .square {
+    width: 30%;
+    height: 400px;
+    border: 2px dotted blue;
+} */
+
+/* .last {
+    border: 2px solid orangered;
+}
+
+#stars-adventure {
+    border: #255ee9 dotted 3px;
+} */
+
+/* footer */
+/* footer {
+    min-height: 300px;
+} */
+
+/* .settings {
+    border: yellowgreen 2px dotted;
+}
+
+.links-footer {
+    border: 1px solid cornsilk;
+}
+
+ul {
+    border: 2px dotted black;
+} */
