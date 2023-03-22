@@ -92,10 +92,7 @@ nav {
 .download-section {
     width: 50%;
     min-height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    line-height: 160px;
 }
 
 /* main */
